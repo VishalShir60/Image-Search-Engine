@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Search Engine</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search anything here..." autocomplete="off">
+            <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div class="filters">
+            <select id="orientation">
+                <option value="">All Orientations</option>
+                <option value="landscape">Landscape</option>
+                <option value="portrait">Portrait</option>
+                <option value="square">Square</option>
+            </select>
+            <select id="size">
+                <option value="">All Sizes</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+            </select>
+            <select id="color">
+                <option value="">All Colors</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+        </div>
+        <div class="results" id="results"></div>
+        <button id="load-more" class="load-more">Load More</button>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <img id="lightbox-img" src="" alt="Enlarged view">
+        <a id="download-btn" href="#" download><i class="fas fa-download"></i> Download</a>
+    </div>
+    <footer class="copyright-footer">
+        <p>&copy; 2024 Image Search Engine. All Rights Reserved by Vishal Shirsath</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
