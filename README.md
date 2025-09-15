@@ -31,7 +31,7 @@ To run this project locally, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone https://github.com/VishalShir60/Image-Search-Engine.git
     ```
 2.  **Open the project:**
     Simply open the `img.html` file in your web browser.
@@ -52,3 +52,5 @@ This project requires a personal API key from Unsplash to work. For security, **
 
 * Project developed by **Vishal Shirsath**
 * Images provided by the incredible community at **Unsplash**
+
+
